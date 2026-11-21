@@ -18,7 +18,7 @@
 * **데이터 개요:** 150개 샘플, 4개의 수치형 피처(`sepal length`, `sepal width`, `petal length`, `petal width`)와 3개 품종(`setosa`, `versicolor`, `virginica`)으로 구성.
 * **전처리 진단:** 결측치 및 중복 데이터가 없으며, 품종별 각 50개씩(`1:1:1`) 완벽한 균형을 이루고 있어 별도의 리샘플링이 불필요함. `sepal width`의 일부 극단값은 자연적인 개체 차이로 판단하여 보존.
 * **주요 분석 결과:**
-  * **강한 상관관계:** `petal length`와 `petal width` 간 상관계수가 **$0.96$**으로 매우 높으며, `sepal length` 역시 꽃잎 크기와 강한 양의 상관관계($0.82 \sim 0.87$)를 보임.
+  * **강한 상관관계:** `petal length`와 `petal width` 간 상관계수가 0.96으로 매우 높으며, `sepal length` 역시 꽃잎 크기와 강한 양의 상관관계($0.82 \sim 0.87$)를 보임.
   * **분류 변별력:** `Setosa` 품종은 꽃잎 크기가 현저히 작아(`petal width <= 0.6cm`) 선형 분리가 가능함. `Versicolor`와 `Virginica`는 꽃받침(Sepal)보다 **꽃잎(Petal) 변수**를 기준으로 명확히 구분됨.
 
 ---
