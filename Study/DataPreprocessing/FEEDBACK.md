@@ -27,11 +27,15 @@ Wine -
 
 ## 이충희
 Titanic
+* 가족 수 분석에서 끝나지 않고 생존율이 4인까지 오르다가 5인 이상에서 떨어지는 비선형 패턴을 찾아내서 이를 바탕으로 Alone/Small/Large로 재구간화한 점이 좋았음
 
 Iris
+* boxplot 위에 stripplot을 겹쳐서 개별 점을 보이게 한 점이 좋았음 덕분에 표본이 50개씩인 데이터에 대해 분포를 직접 볼 수 있어서 많은 정보를 확인 가능할 수 있었음
+* 스케일링 과정이 포함되면 좋을 것 같음
 
 Wine
-
+* Min, Max, Mean, Std, Skewness를 한 표로 묶어서, 스케일링이 필요한 이유를 정리한 것이 좋았음
+* df.drop(columns=['target'], inplace=True)로 target을 지운 것 같은데 히트맵 셀은 df[numeric + ['target']]을 사용 중임 지금 실행하면 에러가 발생할 수 있을 것 같음
 
 
 
