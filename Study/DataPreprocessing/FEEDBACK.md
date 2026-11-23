@@ -21,9 +21,17 @@ is_alone 으로 개인/단체의 생존율 차이 직관적 분석도 가능했�
 
 주석: sex, sex_encoded, alone, is_alone 의미적 중복칼럼 (처리 전 칼럼) drop_cols 추가하면 모델에 넣기 더 쉬워질 것으로 보임
 
-Iris -
+Iris
 
-Wine -
+boxplot 위에 stripplot을 겹쳐 개별 점까지 보이게 한 점과 분석 요약 주석이 좋았음
+
+주석: sepal width만 약한 음의 상관이라고 했는데 품종별로 나눠서 보면 방향이 달라지는지(심슨의 역설) 확인해도 좋을 것 같음
+
+Wine
+
+Min/Max/Mean/Std/Skewness를 한 표로 정리해 스케일링 필요성을 보여준 점이 좋았음
+
+주석: target은 순서 없는 품종 라벨이라 상관계수로 "번호가 커질수록 낮아진다"고 해석하는 건 조심해야 할 듯 (품종별 평균 비교가 더 적절)
 
 ## 이충희
 Titanic
