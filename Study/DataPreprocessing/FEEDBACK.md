@@ -16,9 +16,14 @@ Wine
 ## 이도연
 Titanic
 
-Iris
+log scale 변환 방식 채용, 가족 수별 생존율을 시각화하여 더 입체적인 정보를 알 수 있었으며 
+is_alone 으로 개인/단체의 생존율 차이 직관적 분석도 가능했음
 
-Wine
+주석: sex, sex_encoded, alone, is_alone 의미적 중복칼럼 (처리 전 칼럼) drop_cols 추가하면 모델에 넣기 더 쉬워질 것으로 보임
+
+Iris -
+
+Wine -
 
 ## 이충희
 Titanic
